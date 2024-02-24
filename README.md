@@ -64,9 +64,9 @@ Buena generalización: SVM lineal tiende a generalizar bien a partir de conjunto
 
 Robustez frente a sobreajuste: SVM lineal es menos propenso al sobreajuste en comparación con algunos otros modelos más complejos. Esto es importante en la detección de cáncer de mama, donde es fundamental evitar la clasificación incorrecta de casos positivos y negativos.
 
-Resultados del ejercicio
-Exactitud del modelo: 0.956140350877193
-El modelo detectó 4 como benignos y eran malignos esto es particularmente importante ya que 4 personas estan en riesgo.
+**Resultados del ejercicio**
+**Exactitud del modelo: 0.956140350877193**
+**El modelo detectó 4 como benignos y eran malignos esto es particularmente importante ya que 4 personas estan en riesgo.**
 
 Random Forest Classifier
 Random Forest Classifier es un algoritmo de aprendizaje automático que se utiliza comúnmente tanto para tareas de clasificación como de regresión. Es una técnica de conjunto (ensemble) que utiliza múltiples árboles de decisión durante el entrenamiento y produce una predicción basada en la mayoría de votos o promedio de las predicciones individuales de los árboles.
@@ -78,9 +78,9 @@ Precisión: Random Forest es conocido por su alta precisión en la clasificació
 
 Robustez frente al sobreajuste: Aunque Random Forest es un modelo complejo, tiende a ser menos propenso al sobreajuste que otros modelos más complejos como las redes neuronales profundas. Esto es especialmente importante en aplicaciones médicas donde se deben evitar los falsos positivos y negativos.
 
-Resultados del ejercicio
-Exactitud del modelo: 0.9649122807017544
-El modelo detectó 3 como benignos y eran malignos esto es particularmente importante ya que 3 personas estan en riesgo de 114 elementos evaluados.
+**Resultados del ejercicio**
+**Exactitud del modelo: 0.9649122807017544**
+**El modelo detectó 3 como benignos y eran malignos esto es particularmente importante ya que 3 personas estan en riesgo de 114 elementos evaluados.**
 
 
 # KNN
@@ -97,9 +97,9 @@ Flexibilidad: KNN puede manejar de manera efectiva conjuntos de datos con caract
 
 Interpretabilidad: Aunque KNN no proporciona un modelo explícito como algunos otros algoritmos, su proceso de clasificación basado en vecinos cercanos permite una fácil interpretación. Puedes identificar visualmente los vecinos más cercanos de un punto de datos y comprender mejor por qué se tomó una decisión de clasificación particular.
 
-Resultados del ejercicio
-Exactitud del modelo: 0.9561
-El modelo detectó 5 como benignos y eran malignos esto es particularmente importante ya que 5 personas estan en riesgo de 114 elementos evaluados.
+**Resultados del ejercicio**
+**Exactitud del modelo: 0.9561**
+**El modelo detectó 5 como benignos y eran malignos esto es particularmente importante ya que 5 personas estan en riesgo de 114 elementos evaluados.**
 
 # XGBOOST
 XGBoost (Extreme Gradient Boosting) es una implementación eficiente y escalable de árboles de decisión potenciados por gradient boosting. Es ampliamente utilizado en competiciones de ciencia de datos y aplicaciones del mundo real debido a su velocidad, precisión y capacidad para manejar una variedad de tipos de datos.
@@ -114,9 +114,9 @@ Regresión y clasificación: XGBoost es versátil y puede utilizarse tanto para 
 
 Regularización integrada: XGBoost tiene opciones integradas para regularización, como la penalización de L1 y L2 en los pesos de los árboles, lo que ayuda a prevenir el sobreajuste y mejora la capacidad de generalización del modelo.
 
-Resultados del ejercicio
-Exactitud del modelo: 0.964
-El modelo detectó 3 como benignos y eran malignos esto es particularmente importante ya que 3 personas estan en riesgo de 114 elementos evaluados.
+**Resultados del ejercicio**
+**Exactitud del modelo: 0.964**
+**El modelo detectó 3 como benignos y eran malignos esto es particularmente importante ya que 3 personas estan en riesgo de 114 elementos evaluados.**
 
 # Redes Neuronales artificiales (perceptron)
 Redes neuronales perceptrón: Un modelo simple con una capa de neuronas que puede ser suficiente para conjuntos de datos pequeños.
@@ -129,23 +129,23 @@ Rapidez de entrenamiento: Debido a su estructura simple, los perceptrones pueden
 
 Interpretación de características: Los pesos asociados a las características en un perceptrón pueden proporcionar información sobre la importancia relativa de cada característica en la clasificación. Esto puede ayudar a los médicos a comprender qué características son más relevantes para la detección de cáncer de mama.
 
-Resultados del ejercicio
-Exactitud del modelo: 0.938
-El modelo detectó 7 como benignos y eran malignos esto es particularmente importante ya que 7 personas estan en riesgo de 114 elementos evaluados.
+**Resultados del ejercicio**
+**Exactitud del modelo: 0.938**
+**El modelo detectó 7 como benignos y eran malignos esto es particularmente importante ya que 7 personas estan en riesgo de 114 elementos evaluados.**
 
 
 # Conclusiones finales
 
 En conclusión, al analizar los diferentes modelos de clasificación utilizados para la detección de cáncer de mama, podemos destacar lo siguiente:
 
-SVM Lineal: Ofrece una alta eficiencia con datos de alta dimensionalidad y una buena capacidad de generalización. Sin embargo, en este caso, detectó 4 casos benignos como malignos, lo que podría tener implicaciones graves para la salud de los pacientes.
+**SVM Lineal**: Ofrece una alta eficiencia con datos de alta dimensionalidad y una buena capacidad de generalización. Sin embargo, en este caso, detectó 4 casos benignos como malignos, lo que podría tener implicaciones graves para la salud de los pacientes.
 
-Random Forest Classifier: Destaca por su manejo eficiente de datos complejos y su alta precisión en la clasificación. Aunque identificó 3 casos benignos como malignos, su rendimiento general fue superior, con una exactitud del modelo del 96.49%.
+**Random Forest** Classifier: Destaca por su manejo eficiente de datos complejos y su alta precisión en la clasificación. Aunque identificó 3 casos benignos como malignos, su rendimiento general fue superior, con una exactitud del modelo del 96.49%.
 
-KNN: Aunque es un algoritmo simple y fácil de entender, su rendimiento fue ligeramente inferior al detectar 5 casos benignos como malignos.
+**KNN**: Aunque es un algoritmo simple y fácil de entender, su rendimiento fue ligeramente inferior al detectar 5 casos benignos como malignos.
 
-XGBoost: Demostró una alta precisión y una capacidad efectiva para manejar conjuntos de datos desequilibrados. Identificó 3 casos benignos como malignos, lo que podría tener implicaciones graves para la salud de los pacientes.
+**XGBoost**: Demostró una alta precisión y una capacidad efectiva para manejar conjuntos de datos desequilibrados. Identificó 3 casos benignos como malignos, lo que podría tener implicaciones graves para la salud de los pacientes.
 
-Redes Neuronales Perceptrón: Aunque es un modelo simple y rápido de entrenar, su precisión fue ligeramente inferior a la de otros modelos, identificando 7 casos benignos como malignos.
+**Redes Neuronales Perceptrón:** Aunque es un modelo simple y rápido de entrenar, su precisión fue ligeramente inferior a la de otros modelos, identificando 7 casos benignos como malignos.
 
 En general, los modelos de Random Forest Classifier y XGBoost mostraron el mejor rendimiento en términos de precisión y capacidad para manejar conjuntos de datos desequilibrados. Sin embargo, es crucial tener en cuenta los casos de falsos positivos, ya que podrían llevar a tratamientos innecesarios y ansiedad para los pacientes. Por lo tanto, es fundamental realizar una evaluación exhaustiva de cada modelo y considerar cuidadosamente sus implicaciones clínicas antes de implementarlos en entornos médicos reales.
